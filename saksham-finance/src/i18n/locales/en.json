@@ -1,0 +1,612 @@
+{
+  "common": {
+    "appName": "Saksham",
+    "today": "Today",
+    "save": "Save",
+    "cancel": "Cancel",
+    "back": "Back",
+    "delete": "Delete",
+    "yes": "Yes",
+    "ok": "OK",
+    "loading": "Loading...",
+    "offline": "No internet connection. Please check your network and try again.",
+    "externalLinkNotice": "External official website, needs internet",
+    "lastReviewed": "Reviewed: {{date}}",
+    "offlineLinkError": "Internet needed to open this link",
+    "stepNumber": "Step {{number}}",
+    "welcome": "Welcome to Saksham",
+    "currentLanguage": "Current language: {{language}}"
+  },
+  "languages": {
+    "title": "Choose Language",
+    "subtitle": "Select your preferred language to continue",
+    "en": "English",
+    "hi": "Hindi",
+    "mr": "Marathi"
+  },
+  "tabs": {
+    "home": "Home",
+    "myMoney": "My Money",
+    "learn": "Learn",
+    "access": "Access",
+    "profile": "Profile"
+  },
+  "profile": {
+    "language": "Language",
+    "languageHelp": "Choose the language for the whole app. It changes immediately.",
+    "currentLanguage": "Current",
+    "display": "Display",
+    "simpleMode": "Simple Mode",
+    "simpleModeHelp": "Shows fewer choices and bigger buttons.",
+    "largeText": "Large Text",
+    "largeTextHelp": "Makes all text bigger and easier to read.",
+    "about": "About Saksham",
+    "aboutHelp": "Read about this student prototype.",
+    "demoSectionTitle": "Demo Data",
+    "demoBadge": "DEMO",
+    "loadDemo": "Load Sample Demo Data",
+    "loadDemoHelp": "Loads sample transactions, budgets and a savings goal for demonstration. Clearly marked as demo data.",
+    "loadDemoDialogTitle": "Load sample demo data? (DEMO)",
+    "loadDemoDialogMessage": "This adds sample demo entries, budgets and a savings goal for practice and demonstration. Language and display settings are not changed.",
+    "loadDemoConfirm": "Load Demo Data",
+    "loadDemoSuccessTitle": "Sample demo data loaded",
+    "loadDemoSuccessMessage": "Sample demo transactions, budgets and savings goal have been loaded.",
+    "reset": "Reset Demo Data",
+    "resetHelp": "Clears demo entries, budgets, goals and progress. Keeps language and display settings.",
+    "resetDialogTitle": "Reset demo data?",
+    "resetDialogMessage": "This clears all demo transactions, budgets, goals and progress. Your language and display settings stay.",
+    "resetConfirm": "Reset",
+    "resetSuccessTitle": "Demo data cleared",
+    "resetSuccessMessage": "All tracked demo entries have been removed."
+  },
+  "about": {
+    "title": "About Saksham",
+    "intro": "Saksham is a student prototype and an educational companion for learning about money.",
+    "notBank": "Saksham is not a bank, lender, payment app or government portal.",
+    "localData": "It uses local demo data only. Nothing you enter leaves this phone.",
+    "notVault": "Local storage is not a vault. Never type bank details, PINs, OTPs or account numbers here.",
+    "verify": "Always verify current details with official sources and your bank."
+  },
+  "placeholders": {
+    "myMoney": {
+      "title": "My Money",
+      "message": "Nothing here yet. Demo transactions and budgets are not built yet."
+    },
+    "learn": {
+      "title": "Learn",
+      "message": "Nothing here yet. Lessons and the quiz are not built yet."
+    },
+    "access": {
+      "title": "Access Guide",
+      "message": "Nothing here yet. Access guides are not built yet."
+    },
+    "safetyHelp": {
+      "title": "Safety & Help",
+      "message": "Immediate help and fraud reporting will be available here."
+    },
+    "calculator": {
+      "title": "Loan EMI Calculator",
+      "message": "Loan EMI calculator will be available here."
+    }
+  },
+  "calculator": {
+    "subtitle": "Estimate your monthly loan repayment before you borrow.",
+    "principalLabel": "Loan Amount",
+    "principalPlaceholder": "Enter loan amount in rupees",
+    "rateLabel": "Annual Interest Rate (%)",
+    "ratePlaceholder": "Enter yearly interest rate",
+    "tenureLabel": "Tenure (months)",
+    "tenurePlaceholder": "Enter number of months",
+    "calculate": "Calculate EMI",
+    "resultsTitle": "Estimated Repayment",
+    "monthlyEmi": "Monthly EMI",
+    "totalRepayment": "Total Repayment",
+    "totalInterest": "Total Interest",
+    "estimateNotice": "This is only an estimate. It does not include lender fees, insurance, taxes, penalties or other charges.",
+    "checklistTitle": "Questions to ask the lender",
+    "checklist": [
+      "Who is the lender, and are they authorised?",
+      "What is the interest rate, and how is it worked out?",
+      "What processing and other fees apply?",
+      "What is the tenure of the loan?",
+      "What is the total amount I will repay?",
+      "What late payment charges apply?",
+      "What happens if I miss a payment?",
+      "Can I get everything in writing?"
+    ],
+    "checklistNote": "Compare the total cost of each offer. Never pay an agent for a promise of guaranteed approval.",
+    "errors": {
+      "principalEmpty": "Please enter the loan amount.",
+      "principalInvalid": "Please enter a valid loan amount.",
+      "principalTooManyDecimals": "Loan amount cannot have more than 2 decimal places.",
+      "principalTooSmall": "Loan amount is too small.",
+      "principalTooLarge": "Loan amount is too large.",
+      "rateEmpty": "Please enter the annual interest rate.",
+      "rateInvalid": "Please enter a valid interest rate.",
+      "rateTooSmall": "Interest rate cannot be below zero.",
+      "rateTooLarge": "Interest rate is too large.",
+      "tenureEmpty": "Please enter the tenure in months.",
+      "tenureInvalid": "Please enter a valid tenure.",
+      "tenureNotWhole": "Tenure must be a whole number of months.",
+      "tenureTooSmall": "Tenure is too small.",
+      "tenureTooLarge": "Tenure is too large."
+    }
+  },
+  "officialLinks": {
+    "pmjdy": "Pradhan Mantri Jan-Dhan Yojana (PMJDY)",
+    "rbiEducation": "RBI Financial Education",
+    "rbiFame": "RBI Project FAME (Financial Literacy)",
+    "npciFraud": "NPCI Fraud Awareness",
+    "npciUpiFaq": "NPCI UPI Frequently Asked Questions",
+    "cybercrime": "National Cyber Crime Reporting Portal",
+    "rbiComplaints": "RBI Complaint Management System Guide",
+    "rbiCms": "RBI CMS Portal",
+    "janSuraksha": "Jan Suraksha Government Schemes"
+  },
+  "guides": {
+    "headerTitle": "Financial Access Guide",
+    "headerSubtitle": "Official options, checklists, and safe steps to access financial services.",
+    "verifyTerms": "Verify current terms with your bank or provider",
+    "summarySection": "Overview",
+    "whoItHelpsSection": "Who it helps",
+    "stepsSection": "Steps to take",
+    "questionsSection": "Questions to ask your provider",
+    "cautionSection": "Important caution",
+    "officialLinksSection": "Official resources",
+    "showMore": "Show more details",
+    "showLess": "Show less",
+    "openCalculator": "Calculate loan EMI",
+    "notFound": "Guide topic not found.",
+    "bank-account": {
+      "title": "Opening a Bank Account",
+      "summary": "Visit a bank branch or an authorised Bank Mitra to open a basic savings account. Ask for account terms, KYC requirements, and charges in writing.",
+      "whoItHelps": "Anyone wanting a safe place to keep money and receive payments.",
+      "steps": [
+        "Visit a nearby bank branch or authorised Bank Mitra in person.",
+        "Ask about basic savings account types and official options such as PMJDY.",
+        "Inquire which KYC documents are currently accepted for identity and address proof.",
+        "Confirm all account features, transaction limits, and applicable charges.",
+        "Obtain full written details, terms, and an acknowledgement before depositing money."
+      ],
+      "questions": [
+        "What is the exact name and type of this savings account?",
+        "Which KYC documents do I need to submit to complete verification?",
+        "Are there minimum amount requirements or maintenance fees?",
+        "Does this account provide a passbook, ATM card, or mobile banking access?"
+      ],
+      "caution": "PMJDY is an official scheme option to ask about, not a guaranteed entitlement. All account openings, fees, and rules are determined by the bank under current official regulations."
+    },
+    "digital-payments": {
+      "title": "Safe Digital Payments & UPI",
+      "summary": "UPI lets you pay directly from your bank account using a mobile phone. Learn how to pay safely and protect your secret security codes.",
+      "whoItHelps": "Anyone using a smartphone to send or receive money electronically.",
+      "steps": [
+        "Link your registered mobile number to your bank account using an official UPI app.",
+        "Set a secret personal UPI PIN that you remember and never disclose to anyone.",
+        "Enter your UPI PIN only when you are sending money or paying a bill.",
+        "Always verify the recipient name displayed on the screen before confirming payment.",
+        "Never scan unfamiliar QR codes or click unexpected reward or refund links."
+      ],
+      "questions": [
+        "How can I instantly disable UPI payments if my phone is lost or stolen?",
+        "Where can I review official transaction history inside my banking app?",
+        "What is the formal procedure to dispute a failed or incorrect payment?"
+      ],
+      "caution": "Never share your UPI PIN or OTP with anyone, including bank staff. Your PIN is required only to make a payment, never to receive money. Do not install unknown screen-sharing apps or click unverified links."
+    },
+    "borrowing": {
+      "title": "Understanding Loans & Credit",
+      "summary": "Before taking a loan, understand the lender, principal, interest rate, fees, tenure, EMI, total repayment, late fees, and collateral.",
+      "whoItHelps": "Anyone planning to take a formal loan for business, agricultural, or personal needs.",
+      "steps": [
+        "Understand key terms: lender (provider), principal (amount borrowed), and tenure (loan duration).",
+        "Review your EMI (monthly payment), interest rate, and total repayment amount over the full tenure.",
+        "Check that the lender is an RBI-authorised bank or registered financial company.",
+        "Ask for a detailed written breakdown of all processing fees, insurance charges, and late penalty terms.",
+        "Compare total borrowing costs across multiple authorised providers before signing any contract."
+      ],
+      "questions": [
+        "Is your institution directly registered and authorised by the RBI?",
+        "What is the complete repayment amount including all interest, fees, and taxes?",
+        "What specific penalty charges apply if an EMI payment is delayed?",
+        "Is collateral required, and what are the exact conditions for early repayment?"
+      ],
+      "caution": "Never pay an advance fee or commission to any agent promising guaranteed approval. Always verify lender authorisation with official sources and compare total costs in writing."
+    },
+    "savings-protection": {
+      "title": "Savings, Insurance & Pensions",
+      "summary": "Protect your household against unexpected life events with savings, insurance for emergency support, and pensions for regular retirement income.",
+      "whoItHelps": "Individuals and families seeking long-term financial security and protection.",
+      "steps": [
+        "Build an emergency reserve in an authorised bank account for urgent needs.",
+        "Understand insurance as protection that provides financial assistance upon specified illness or loss.",
+        "Understand pension schemes as structured plans that deliver regular income in retirement.",
+        "Visit your bank to ask about government-backed protection options such as Jan Suraksha schemes."
+      ],
+      "questions": [
+        "What official government-backed insurance or pension schemes are offered at this branch?",
+        "What is the formal claim process and what documents are required for my nominee?",
+        "How are contribution payments scheduled and deducted from my savings account?"
+      ],
+      "caution": "Ask your bank or consult the official Jan Suraksha portal for current eligibility criteria, terms, and contribution rules. Ensure nominee details are accurately registered in writing."
+    },
+    "help": {
+      "title": "Emergency Help & Fraud",
+      "summary": "Immediate actions to take if you suspect fraud, sent money to the wrong person, or shared confidential banking details.",
+      "whoItHelps": "Anyone who has encountered financial fraud, suspicious messages, or lost access to their account.",
+      "steps": [
+        "Contact your bank or payment app immediately to freeze your account and debit card.",
+        "Call the national cyber helpline on 1930 to report the incident immediately.",
+        "Submit an official complaint on the National Cyber Crime Reporting Portal at cybercrime.gov.in.",
+        "Preserve all transaction records, SMS notices, screenshots, and caller numbers as evidence."
+      ],
+      "questions": [
+        "Can you block my digital services right now to prevent further transactions?",
+        "What is the formal reference number for this incident report?",
+        "What is the official procedure and timeline for resolving this dispute?"
+      ],
+      "caution": "Never disclose your OTP, passwords, or UPI PIN to anyone, even callers claiming to be police officers or bank investigators. Official agencies will never ask for your PIN to resolve a complaint."
+    }
+  },
+  "safety": {
+    "banner": "If you think you were scammed, act now.",
+    "stepsTitle": "Urgent steps",
+    "stepBank": "Contact your bank or payment app right away.",
+    "stepHelpline": "Call {{number}}, the national cyber financial fraud helpline.",
+    "stepPortal": "Report on the National Cyber Crime Reporting Portal.",
+    "stepKeepDetails": "Do not delete messages or transaction details. Note the transaction IDs.",
+    "stepOfficialChannels": "Use official channels only.",
+    "stepComplaint": "For a banking complaint, first contact your bank. If it is not solved, use the RBI complaint pages.",
+    "preventTitle": "Never share",
+    "preventList": [
+      "Your UPI PIN, OTP, password or card PIN.",
+      "Unknown QR codes or collect requests.",
+      "Unknown apps or screen sharing."
+    ],
+    "neverAsk": "Saksham never asks for any of these.",
+    "callButton": "Call {{number}}",
+    "callFailed": "Could not open the phone dialer. Please dial {{number}} yourself.",
+    "linksTitle": "Official links",
+    "profileHelp": "Urgent fraud steps, helpline and complaint links."
+  },
+  "errors": {
+    "empty": "Please enter an amount.",
+    "invalid": "Please enter a valid number.",
+    "notPositive": "Amount must be greater than zero.",
+    "tooManyDecimals": "Amount cannot have more than 2 decimal places.",
+    "tooLarge": "Amount is too large.",
+    "generic": "Something went wrong. Please try again."
+  },
+  "disclaimer": {
+    "studentPrototype": "This app is an educational student prototype.",
+    "notABank": "Saksham is not a bank or payment app.",
+    "trackedDemoAmount": "All balances are tracked demo amounts for practice only.",
+    "notConnectedToBank": "This app does not connect to your real bank account."
+  },
+  "a11y": {
+    "back": "Go back",
+    "close": "Close",
+    "selectLanguage": "Select language",
+    "homeTab": "Home tab",
+    "myMoneyTab": "My Money tab",
+    "learnTab": "Learn tab",
+    "accessTab": "Access tab",
+    "profileTab": "Profile tab"
+  },
+  "learn": {
+    "title": "Learn",
+    "subtitle": "Master essential financial habits, digital safety, and consumer rights.",
+    "completed": "Completed",
+    "notStarted": "Not started",
+    "readAloud": "Read Aloud",
+    "stopAloud": "Stop Reading",
+    "reading": "Reading aloud...",
+    "markComplete": "Mark complete",
+    "isCompleted": "Lesson completed",
+    "startQuiz": "Take Quiz",
+    "noVoice": "Audio reading voice is not available on this device for the selected language.",
+    "summary": "Summary",
+    "paragraphs": "Lesson Details",
+    "takeaways": "Key Takeaways",
+    "showMore": "Show more",
+    "showLess": "Show less",
+    "notFound": "Lesson not found",
+    "quizCardTitle": "Financial Safety Quiz",
+    "quizCardDescription": "Test your understanding with 5 practical questions."
+  },
+  "lessons": {
+    "banking": {
+      "title": "Basic Banking",
+      "summary": "A bank account keeps money safe and enables official transactions.",
+      "paragraphs": [
+        "A bank account keeps your money safe in an official place.",
+        "KYC means Know Your Customer, where the bank confirms your identity with official documents.",
+        "A Bank Mitra is a trusted banking helper who provides basic bank services in your village or neighbourhood.",
+        "You can deposit money, withdraw cash, and check your passbook at any time.",
+        "Ask your local bank branch or Bank Mitra to learn current terms and services."
+      ],
+      "takeaways": [
+        "KYC confirms your identity with official documents.",
+        "A Bank Mitra helps you access banking services nearby.",
+        "Always get an official receipt for any deposit or withdrawal.",
+        "Verify current account options with your bank."
+      ]
+    },
+    "savings": {
+      "title": "Savings Habits",
+      "summary": "Regular saving creates a protective safety net for emergencies and future plans.",
+      "paragraphs": [
+        "Saving even small amounts regularly builds security for unexpected needs.",
+        "Money kept in a bank account stays protected and separate from daily spending.",
+        "Setting a clear purpose helps you stay focused on your saving habit.",
+        "Small regular deposits grow over time into a helpful fund.",
+        "Official savings schemes offer different benefits, so ask your bank for details."
+      ],
+      "takeaways": [
+        "Regular small savings protect against sudden expenses.",
+        "Keep your savings in an official bank account.",
+        "Define a purpose to stay on track.",
+        "Check current official savings options with your bank."
+      ]
+    },
+    "upi": {
+      "title": "UPI & Digital Payments",
+      "summary": "UPI lets you send money quickly from your bank account using a phone.",
+      "paragraphs": [
+        "UPI is Unified Payments Interface, an official system for quick bank transfers.",
+        "You can send money directly using a phone number or a QR code.",
+        "A UPI PIN is your secret security number known only to you.",
+        "You only enter your UPI PIN to send money, never to receive money.",
+        "Scan codes only from verified merchants and trusted people."
+      ],
+      "takeaways": [
+        "UPI transfers money directly between bank accounts.",
+        "Your UPI PIN is required only to send money.",
+        "Never enter your UPI PIN or scan a QR code to receive money.",
+        "Always verify the receiver name before confirming payment."
+      ]
+    },
+    "fraud": {
+      "title": "Digital Fraud Prevention",
+      "summary": "Protect yourself from scams by keeping your secret codes private.",
+      "paragraphs": [
+        "Frauds happen when someone tricks you into giving away secret information.",
+        "An OTP is a One-Time Password sent to your phone to authorize actions.",
+        "Bank staff and police will never ask for your UPI PIN, OTP, or password.",
+        "Never install screen-sharing apps or click unknown links from messages.",
+        "If someone pressures you to act quickly, pause and verify with your bank."
+      ],
+      "takeaways": [
+        "Never share your UPI PIN, OTP, or passwords with anyone.",
+        "No official person will ever ask for secret codes.",
+        "Do not download apps or click links suggested by unknown callers.",
+        "Pause and consult your branch if an offer sounds suspicious."
+      ]
+    },
+    "borrowing": {
+      "title": "Borrowing & Interest",
+      "summary": "Understand loans, interest cost, and monthly repayments before taking debt.",
+      "paragraphs": [
+        "A loan is money you borrow from an official lender and must pay back.",
+        "Interest is the extra cost charged by the lender for using their money.",
+        "An EMI is Equated Monthly Instalment, the fixed amount you repay each month.",
+        "Borrow only what you can comfortably repay alongside your living expenses.",
+        "Ask the lender for a complete cost summary before signing any loan agreement."
+      ],
+      "takeaways": [
+        "Interest is the cost of borrowing money.",
+        "An EMI is the fixed monthly payment towards your loan.",
+        "Compare loan terms from official banks before deciding.",
+        "Borrow only what fits within your monthly budget."
+      ]
+    },
+    "help": {
+      "title": "Complaints & Seeking Help",
+      "summary": "Know the official steps to report fraud and resolve banking disputes.",
+      "paragraphs": [
+        "If you face an unauthorized transaction, contact your bank immediately.",
+        "Call the national cybercrime helpline at 1930 without delay for fraud.",
+        "Keep all transaction SMS messages and receipts as proof.",
+        "If your bank does not resolve your complaint, you can reach the RBI Ombudsman.",
+        "Official complaints are always registered through recognized government portals."
+      ],
+      "takeaways": [
+        "Notify your bank immediately if any issue occurs.",
+        "Dial 1930 promptly to report financial cyber fraud.",
+        "Preserve SMS alerts and transaction records as evidence.",
+        "Use official complaint channels such as the RBI Ombudsman."
+      ]
+    }
+  },
+  "quiz": {
+    "title": "Knowledge Quiz",
+    "submit": "Submit",
+    "next": "Next Question",
+    "seeScore": "View Results",
+    "correct": "Correct",
+    "incorrect": "Not correct",
+    "questionProgress": "Question {{current}} of {{total}}",
+    "scoreResult": "You scored {{score}} out of {{total}}",
+    "bestScore": "Best Score: {{score}} / {{total}}",
+    "notTakenYet": "Not taken yet",
+    "perfectScore": "Excellent! You have a solid grasp of financial safety basics.",
+    "goodEffort": "Good effort! Review the lessons and try again to improve your score.",
+    "retry": "Try Again",
+    "backToLearn": "Back to Lessons",
+    "startQuiz": "Start Quiz",
+    "retakeQuiz": "Retake Quiz",
+    "yourAnswer": "Your answer:",
+    "correctAnswer": "Correct answer:",
+    "explanation": "Explanation",
+    "core": {
+      "title": "Financial Literacy Quiz",
+      "description": "Test your knowledge on safe banking, UPI, loans, and scam prevention.",
+      "q1": {
+        "question": "Can anyone, such as bank staff or police, ask for your UPI PIN or OTP?",
+        "options": [
+          "Yes, if they say they are bank staff or police",
+          "No, never share your UPI PIN or OTP with anyone",
+          "Yes, to receive a cash prize or refund into your account"
+        ],
+        "explanation": "Your UPI PIN and OTP are strictly private. Legitimate bank staff, police, and government officials never ask for them."
+      },
+      "q2": {
+        "question": "When is your UPI PIN required?",
+        "options": [
+          "Only when sending money from your account",
+          "Every time someone sends money to your account",
+          "To check lucky draw prizes or scan incoming requests"
+        ],
+        "explanation": "A UPI PIN is used only to authorize money leaving your account. You never need a PIN to receive money."
+      },
+      "q3": {
+        "question": "What does KYC mean in a bank?",
+        "options": [
+          "A monthly account maintenance fee",
+          "Know Your Customer, confirming identity with official documents",
+          "A private contract for lottery winnings"
+        ],
+        "explanation": "KYC stands for Know Your Customer, where the bank verifies your identity using official government documents."
+      },
+      "q4": {
+        "question": "What is an EMI when you repay a loan?",
+        "options": [
+          "An unexpected penalty fee from the lender",
+          "A secret mobile recharge voucher",
+          "Equated Monthly Instalment, the fixed repayment amount each month"
+        ],
+        "explanation": "An EMI is the fixed monthly instalment you pay to repay your loan principal and interest over time."
+      },
+      "q5": {
+        "question": "What should you do first if you suspect financial fraud on your phone?",
+        "options": [
+          "Immediately contact your bank and call 1930",
+          "Wait for a few days to see if the money returns",
+          "Share your OTP with the caller to reverse the transfer"
+        ],
+        "explanation": "Acting promptly by notifying your bank and calling the national cyber helpline 1930 gives the best chance to freeze unauthorized transfers."
+      }
+    }
+  },
+  "categories": {
+    "food": "Food & Groceries",
+    "transport": "Transport",
+    "home": "Home & Rent",
+    "bills": "Bills & Utilities",
+    "health": "Health & Medical",
+    "education": "Education",
+    "shopping": "Shopping",
+    "salary": "Salary / Wages",
+    "business": "Business / Trade",
+    "farming": "Farming / Agriculture",
+    "gift": "Gift / Support",
+    "other": "Other"
+  },
+  "myMoney": {
+    "title": "My Money",
+    "tabTransactions": "Transactions",
+    "tabBudgets": "Budgets",
+    "tabGoals": "Goals",
+    "moreTools": "More tools",
+    "hideMoreTools": "Hide extra tools",
+    "summaryTitle": "Monthly Summary",
+    "incomeLabel": "Income",
+    "expenseLabel": "Expenses",
+    "netTrackedLabel": "Net Tracked Amount",
+    "demoDisclaimer": "Tracked demo amount. Not your bank balance.",
+    "viewedMonth": "Month: {{month}}",
+    "prevMonth": "Previous month",
+    "nextMonth": "Next month",
+    "addTransaction": "Add Entry",
+    "emptyTransactionsTitle": "No demo transactions yet",
+    "emptyTransactionsMessage": "Add your first income or expense to see how demo money tracking works. Nothing links to your bank.",
+    "emptyBudgetsTitle": "No budgets set",
+    "emptyBudgetsMessage": "Set a spending limit for a category to track where your money goes.",
+    "emptyGoalsTitle": "No savings goals yet",
+    "emptyGoalsMessage": "Create a goal and track how much demo money you have saved towards it.",
+    "deleteConfirmTitle": "Delete transaction?",
+    "deleteConfirmMessage": "Are you sure you want to delete this demo transaction?",
+    "deleteA11y": "Delete {{category}} transaction of {{amount}}",
+    "addTitle": "Add Transaction",
+    "typeIncome": "Income",
+    "typeExpense": "Expense",
+    "amountLabel": "Amount",
+    "amountPlaceholder": "Enter amount in rupees",
+    "categoryLabel": "Category",
+    "dateLabel": "Date",
+    "changeDate": "Change Date",
+    "noteLabel": "Note (Optional)",
+    "notePlaceholder": "Enter description (e.g. groceries)",
+    "noteDisclaimer": "Do not type bank details here.",
+    "saveTransaction": "Save Transaction",
+    "budgetLimitLabel": "Monthly Limit",
+    "budgetLimitPlaceholder": "Enter limit in rupees",
+    "budgetCategoryLabel": "Category",
+    "budgetEditTitle": "Edit Budget",
+    "budgetCreateTitle": "Create Budget",
+    "budgetSave": "Save Budget",
+    "budgetDeleteConfirmTitle": "Delete budget?",
+    "budgetDeleteConfirmMessage": "Are you sure you want to remove this budget?",
+    "addBudget": "Add Budget",
+    "budgetSpentLabel": "Spent",
+    "budgetLimitShortLabel": "Limit",
+    "budgetRemainingLabel": "Remaining",
+    "budgetStatusOk": "On track",
+    "budgetStatusWarning": "Near limit",
+    "budgetStatusExceeded": "Exceeded",
+    "budgetStatusNotSet": "Budget not set",
+    "budgetOverBy": "Over by {{amount}}",
+    "budgetWarningBanner": "Spending is at {{percent}} of the budget for {{category}}.",
+    "goalSavedLabel": "Saved",
+    "goalTargetLabel": "Target",
+    "goalRemainingLabel": "Remaining",
+    "goalReached": "Goal reached",
+    "addGoal": "Add Goal",
+    "goalCreateTitle": "Create Savings Goal",
+    "goalNameLabel": "Goal Name",
+    "goalNamePlaceholder": "e.g. New phone, Emergency fund",
+    "goalNameDisclaimer": "Do not type bank details here.",
+    "goalTargetAmountLabel": "Target Amount",
+    "goalTargetAmountPlaceholder": "Enter target in rupees",
+    "goalStartingSavedLabel": "Starting Saved (Optional)",
+    "goalStartingSavedPlaceholder": "Enter starting amount",
+    "goalSaveButton": "Save Goal",
+    "goalDetailTitle": "Savings Goal",
+    "goalAddMoney": "Add Money",
+    "goalAddMoneyTitle": "Add Money to Goal",
+    "goalAddAmountLabel": "Amount to Add",
+    "goalAddAmountPlaceholder": "Enter amount to add",
+    "goalAddSave": "Add",
+    "goalEditTitle": "Edit Goal",
+    "goalEditSave": "Save Changes",
+    "goalDeleteConfirmTitle": "Delete goal?",
+    "goalDeleteConfirmMessage": "Are you sure you want to remove this savings goal?",
+    "deleteBudget": "Delete Budget"
+  },
+  "home": {
+    "greeting": "Namaste / Hello",
+    "profileShortcut": "Profile",
+    "trackedDemoAmountTitle": "Tracked demo amount",
+    "trackedAmountNote": "Based on entries you add. Not linked to your bank.",
+    "incomeThisMonth": "Income this month",
+    "expensesThisMonth": "Expenses this month",
+    "accessCta": "Need help accessing a service?",
+    "quickActionsTitle": "Quick Actions",
+    "quickAddExpense": "Add Expense",
+    "quickAddIncome": "Add Income",
+    "quickSavingsGoal": "Savings Goal",
+    "quickCalculator": "EMI Calculator",
+    "featuredLessonTitle": "Featured Lesson",
+    "staySafeTitle": "Stay Safe",
+    "staySafeSubtitle": "Emergency fraud helpline and safety guide",
+    "emptyTitle": "No demo entries yet",
+    "emptyMessage": "Add your first income or expense above to start tracking your demo cashflow.",
+    "simpleAccessGuide": "Access Guide",
+    "simpleAddExpense": "Add Expense",
+    "simpleLearn": "Learn",
+    "simpleSafetyHelp": "Safety & Help"
+  },
+  "demoData": {
+    "emergencyGoal": "Emergency Fund"
+  }
+}

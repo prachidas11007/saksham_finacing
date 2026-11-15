@@ -24,7 +24,7 @@ export function AppText({
     <Text
       {...rest}
       maxFontSizeMultiplier={MAX_FONT_MULTIPLIER}
-      style={[styles.base, styles[variant], { fontSize }, style]}
+      style={[styles.base, styles[variant], style, { fontSize }]}
     >
       {children}
     </Text>

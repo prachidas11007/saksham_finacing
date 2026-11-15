@@ -4,6 +4,7 @@ export const LARGE_TEXT_SCALE = 1.25;
 export const MAX_FONT_MULTIPLIER = 1.4;
 export const MAX_AMOUNT = 100000000;
 export const MAX_NOTE_LENGTH = 100;
+export const MAX_GOAL_NAME_LENGTH = 40;
 export const BUDGET_WARNING_PERCENT = 80;
 
 export const EMI_PRINCIPAL_MIN = 1;

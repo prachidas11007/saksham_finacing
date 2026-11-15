@@ -5,7 +5,13 @@ import {
   type TextInputProps,
 } from "react-native";
 import { AppText } from "./AppText";
-import { MIN_TOUCH_DP } from "../constants/limits";
+import { usePreferences } from "../context/PreferencesContext";
+import {
+  LARGE_TEXT_SCALE,
+  MAX_FONT_MULTIPLIER,
+  MIN_TOUCH_DP,
+  SIMPLE_TOUCH_DP,
+} from "../constants/limits";
 import { colors, fontSizes, radii, spacing } from "../constants/theme";
 
 type AppInputProps = TextInputProps & {
@@ -22,6 +28,10 @@ export function AppInput({
   style,
   ...rest
 }: AppInputProps) {
+  const { largeText, simpleMode } = usePreferences();
+  const fontSize = fontSizes.body * (largeText ? LARGE_TEXT_SCALE : 1);
+  const minHeight = simpleMode ? SIMPLE_TOUCH_DP : MIN_TOUCH_DP;
+
   return (
     <View style={styles.wrapper}>
       <AppText variant="body" style={styles.label}>
@@ -32,9 +42,14 @@ export function AppInput({
         multiline={multiline}
         accessibilityLabel={label}
         accessibilityHint={error ?? hint}
+        maxFontSizeMultiplier={MAX_FONT_MULTIPLIER}
         placeholderTextColor={colors.mutedText}
         style={[
           styles.input,
+          {
+            fontSize,
+            minHeight: multiline ? Math.max(minHeight, 80) : minHeight,
+          },
           multiline ? styles.multiline : null,
           error ? styles.inputError : null,
           style,
@@ -66,8 +81,6 @@ const styles = StyleSheet.create({
     borderRadius: radii.md,
     borderWidth: 1,
     color: colors.text,
-    fontSize: fontSizes.body,
-    minHeight: MIN_TOUCH_DP,
     paddingHorizontal: spacing.md,
     paddingVertical: spacing.sm,
   },
